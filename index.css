@@ -1,0 +1,214 @@
+:root {
+  --light-grey: #DFDAD7;
+  --blue: #0600FF;
+  --dark-grey: #8D8882;
+  --whitish-grey: #F1EEEC;
+}
+
+body {
+  background-color: var(--light-grey)
+}
+
+h1 {
+  color: var(--blue)
+}
+
+h2 {
+  color: var(--blue);
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+a {
+  display:block;
+  text-decoration: none;
+  color:var(--blue);
+  margin-bottom: 10px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 70px 50px 70px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* article {
+  display: flex;
+  justify-content:space-between;
+} */
+
+section {
+  font-family: 'Londrina Shadow', cursive;
+  Font-style: Italic;
+  Font-size: 24px;
+  Line-height: 32px;
+  align-content: center;
+  margin: 100px 248px 64px 248px;
+  color: var(--blue);
+  font-weight: normal;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Londrina Shadow', cursive;
+  Font-style: Italic;
+  color:var(--blue);
+  background-color:var(--whitish-grey);
+  margin-top:150px;
+  width: 100%;
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-svg {
+  width:30px;
+  height:30px;
+  margin-top: 5px;
+}
+
+.logo-svg {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-svg {
+ margin-top: -10px;
+}
+
+.book-an-appointment-button {
+  font-family: 'Londrina Shadow', cursive;
+  Font-style: Italic;
+  width: 425px;
+  height: 65px;
+  font-weight:900;
+  background-color: #FFFFFF;
+  border: none;
+  color:var(--blue);
+  margin-top: 30px;
+}
+
+.footer-left-p {
+  color: var(--dark-grey);
+}
+
+.a-in-p-footer {
+  color: var(--dark-grey);
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #C4C4C4;
+  width: 700px;
+  height: 600px;
+  margin-left: 40px;
+  margin-bottom: 450px;
+}
+
+.button-book-now {
+  background-color: #ffffff;
+  width: 164px;
+  height:48px;
+  border: none;
+  color:var(--blue);
+  margin-right: 16px;
+  font-weight: bolder;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.button-gift-card {
+  background-color:var(--light-grey);
+  width: 164px;
+  height: 48px;
+  border-color:var(--blue);
+  color:var(--blue);
+  margin-right: 34px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.footer-right-content{
+  width:45%;
+  margin-left: 50px;
+  display: grid;
+  grid-template-areas:
+    "item1 item2 footer-svg"
+    "foot";
+}
+
+.foot {
+  padding-left: 48px;
+}
+
+.help-follow-icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-left-content{
+  width: 45%;
+  display: block;
+}
+
+.locations {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment-button-and-p {
+  display: block;
+}
+
+.col2 {
+  flex-grow: 2;
+}
+
+input[type=email] {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color:var(--whitish-grey);
+  width:85%;
+}
+
+.form-button {
+  border: none;
+  background-color: var(--whitish-grey);
+}
+
+.section-p {
+  margin-top: 80px;
+}
+
+.section-h2 {
+  text-align: center;
+}
+
+.body-content1 {
+  float: left;
+  width: 40%;
+  margin: 40px;
+}
+
+.body-content2 {
+  font-family: 'Londrina Shadow', cursive;
+  Font-style: Italic;
+  float: right;
+  width: 35%;
+  margin:40px 40px 40px 100px;
+  font-size: 12px;
+  line-height: 20px;
+  line-height: 141%;
+  align-self: left;
+  letter-spacing: 2.33px;
+}
+
+.body-content2-h2 {
+  margin-bottom: 30px;
+}
